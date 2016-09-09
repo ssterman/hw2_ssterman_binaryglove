@@ -30,7 +30,7 @@ The microcontroller cable runs down the arm from the breadboard to the laptop, a
 
 ![Fingertip Pads](glove_final_fingerpads.JPG)
 
-![Final Design](glove_final_top.png)
+![Final Design](glove_final_top.JPG)
 
 
 -------------------------------------------------
