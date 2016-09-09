@@ -58,7 +58,7 @@ void loop() {
             output = output.remove(output.length() -1);
             output = output.remove(output.length() -1);
             writeCurOutput();
-          } //if both are high and 26 letters available, write a space
+          } //if both are pressed and 26 letters available, write a space
           else {
             curStart = curEnd;
             space = true;
@@ -126,12 +126,6 @@ int halve() {
   }
 
   return (curEnd - curStart + 1) / 2;
-//  //even number of entries
-//  if ( len % 2 == 0) {
-//    return len/2 + 1;
-//  } else {
-//    return len/2;
-//  }
 }
 
 void updateKeyboardView() {
